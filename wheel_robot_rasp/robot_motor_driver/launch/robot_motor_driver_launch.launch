@@ -1,0 +1,4 @@
+<launch>
+    <node name="robot_motor_driver_node" pkg="robot_motor_driver" type="robot_motor_driver_node" output="screen">
+    </node>
+</launch>

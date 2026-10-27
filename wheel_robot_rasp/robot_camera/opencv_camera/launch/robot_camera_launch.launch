@@ -1,0 +1,4 @@
+<launch>
+    <node name="opencv_camera_pub" pkg="opencv_camera" type="opencv_camera_pub" output="screen">
+    </node>
+</launch>

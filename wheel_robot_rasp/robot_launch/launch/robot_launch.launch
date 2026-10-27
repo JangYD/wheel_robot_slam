@@ -1,0 +1,16 @@
+<launch>
+    <include file="$(find robot_motor_driver)/launch/robot_motor_driver_launch.launch">
+    </include>
+    <include file="$(find robot_mw_ahrsv2u)/launch/robot_mw_ahrsv2u_launch.launch">
+    </include>
+    <include file="$(find ydlidar_ros_driver)/launch/X4.launch">
+    </include>
+    <include file="$(find joy)/launch/joy.launch">
+    </include>
+    <include file="$(find robot_joy_teleop)/launch/robot_joy_teleop.launch">
+    </include>
+    <include file="$(find opencv_camera)/launch/robot_camera_launch.launch">
+    </include>
+
+    
+</launch>

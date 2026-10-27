@@ -1,0 +1,4 @@
+<launch>
+    <node name="robot_mw_ahrsv2u_node" pkg="robot_mw_ahrsv2u" type="robot_mw_ahrsv2u_node" output="screen">
+    </node>
+</launch>
